@@ -1,0 +1,92 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Tag Selector~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+body{
+  position: relative;
+  text-align: center;
+  background-color:HSL(185, 75%, 39%);
+  overflow: hidden;
+}
+hr{
+  color: HSL(227, 10%, 46%);
+  margin-bottom: 1.5625rem;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Class Selector~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.post{
+  position: relative;
+  width:3.125rem;
+  margin: 0 10px 60px auto;
+  bottom: 10.9375rem;
+  padding-right: 15px;
+}
+.data{
+
+  position: relative;
+  height: 5rem;
+}
+.follow{
+  width: 3.75rem;
+  margin: 10px 110px 0 20px;
+  padding-left: 15px;
+}
+.likes{
+  padding-left: 10px;
+  position: relative;
+  width:3.125rem;
+  margin: 0 auto 60px ;
+  bottom: 66px;
+
+}
+
+.top{
+  position: absolute;
+  width:700px;
+  left:0;
+  top: 0;
+  transform: translate(-100px,-350px);
+}
+.bottom{
+  position: absolute;
+  width: 43.75rem;
+  right:0;
+  bottom: 0;
+  transform: translate(6.25rem,21.875rem);
+}
+.info{
+  position: relative;
+  top: -2.5rem;
+  
+}
+.main{
+  color: HSL(229, 23%, 23%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight:700;
+}
+.alt{
+  color: HSL(227, 10%, 46%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+
+}
+.content{
+  border-radius: 15px;
+  background-color: white;
+  position: relative;
+  width: 21.875rem;
+  margin: 8.75rem auto 0;
+  height: 25rem;
+  margin:100px auto 100px auto;
+}
+  .dp{
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    bottom: 50px;
+    border: solid 5px;
+  }
+  .pattern{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+  }
